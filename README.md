@@ -8,4 +8,8 @@ https://www.youtube.com/watch?v=AoftxEV2gjQ&t=1s
 https://www.matthewdevaney.com/category/powerapps/
 
 # PowerApps Community
-https://github.com/pnp/powerplatform-snippets
+1.https://github.com/pnp/powerplatform-snippets
+
+# --Contributor Link---
+1. https://github.com/jan-chlebek/Power-Platform-Snippets
+2. https://github.com/jan-chlebek/power-platform
