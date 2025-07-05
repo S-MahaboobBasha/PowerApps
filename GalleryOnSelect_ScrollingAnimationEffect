@@ -1,0 +1,34 @@
+Required
+
+1. Gallery Control
+2. Timer Control
+3. Conatiner
+
+
+# App OnStart Property 
+
+Set(varAnimate, false)
+
+
+# Timer Control Name ----> Timer1
+
+Duration : 1000
+Repeat : Off
+Auto start : Off
+Auto pause : On
+OnTimerStart : false
+OnTimerEnd : Set(varAnimate,false)
+
+# Take Horizontal Gallery Control
+
+Items : Datasource
+Default : {}
+OnSelect : Reset(Timer1); Set(varAnimate, !varAnimate)
+ShowNavigation : ture
+ShowScrollbar : false
+Transition : Transition.Pop
+TemplatePadding : 10
+
+# Container Control:
+
+Y : If( varAnimate , Timer1.Value / Timer1.Duration * 355, If(Timer1.Value > 0, 355, 0) )
